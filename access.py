@@ -9,7 +9,7 @@ print(header)
 
 rows = []
 for row in csvreader:
-    row.append(row)
+    rows.append(row)
 print(rows)
 
 file.close()
