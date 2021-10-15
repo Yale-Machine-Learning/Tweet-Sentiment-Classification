@@ -1,6 +1,6 @@
 import csv
 
-file = open('test.csv')
+file = open('dataset/test.csv')
 csvreader = csv.reader(file)
 
 header = []
